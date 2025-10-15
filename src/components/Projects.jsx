@@ -22,7 +22,7 @@ function Projects() {
         "Write your thoughts and publish them online on a secure and easy-to-use platform.",
       links: {
         gitHub: "https://github.com/vaishnavi071106/Task-App",
-        hosted: "https://talhashah-dev.github.io/blogging-app/",
+        hosted: "https://task-app-nine-pied.vercel.app/",
       },
       tags: ["html", "css", "javascript"],
     },
@@ -33,8 +33,8 @@ function Projects() {
       name: "Portfolio",
       description: "Personal Portfolio built with React.js & Tailwind CSS",
       links: {
-        gitHub: "https://github.com/talhashah-dev/portfolio",
-        hosted: "https://talhashah.vercel.app/",
+        gitHub: "https://github.com/vaishnavi071106/MyPortfolio",
+        hosted: "https://vaishnavisaiportfolio.vercel.app/",
       },
       tags: ["react", "tailwind", "javascript"],
     },
