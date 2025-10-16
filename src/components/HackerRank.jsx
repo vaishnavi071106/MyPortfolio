@@ -5,10 +5,9 @@ const HackerRank = () => {
   const certificates = [
     {
       title: "Certification of Hackathon",
-      description:
-        "Participated in Designathon 2025: Crack the Complexity, a National Level 24-hour Hackathon held on 5th and 6th August 2025. The event was organized by the Department of Computational Intelligence, School of Computing, SRM Institute of Science and Technology, Kattankulathur. It provided a great opportunity to apply my problem-solving skills and engage in innovative thinking under real-time pressure.",
+      description:"",
       image: HackerRankImage,
-      imageAlt: "Lagacy JavaScript Certificate",
+      imageAlt: "Certification of Hackathon",
     },
   ];
 
