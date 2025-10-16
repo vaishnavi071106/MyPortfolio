@@ -1,13 +1,12 @@
-import React, { useState } from "react";
-import "../App.css"
-import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
-import { IoMdMenu, IoMdClose } from "react-icons/io";
-
+import React, {useState} from "react";
+import "../App.css";
+import {FaGithub, FaLinkedin, FaStackOverflow} from "react-icons/fa";
+import {IoMdMenu, IoMdClose} from "react-icons/io";
 
 function Navbar({sendDataToParent}) {
   // const [active, setActive] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   const handleLinkClick = (index) => {
     // setActive(index);
     setMenuOpen(false);
@@ -19,7 +18,6 @@ function Navbar({sendDataToParent}) {
     setMenuOpen(newMenuState);
     sendDataToParent(newMenuState);
   };
-  
 
   return (
     <>
@@ -43,7 +41,7 @@ function Navbar({sendDataToParent}) {
             menuOpen ? "max-md:flex" : "max-md:hidden"
           } `}>
           <ul className="flex gap-10 max-md:flex-col max-md:w-full">
-            <li className="max-md:w-full">
+            <li>
               <a
                 href="#about"
                 className={`inline-block w-full text-[#7e9199] hover:text-white max-md:hover:border-none max-md:active:bg-purple-500 max-md:active:text-white max-md:px-2 hover:border-b pb-1 text-lg`}
@@ -51,7 +49,6 @@ function Navbar({sendDataToParent}) {
                 About
               </a>
             </li>
-
             <li>
               <a
                 href="#skills"
@@ -78,6 +75,22 @@ function Navbar({sendDataToParent}) {
                 Certificates
               </a>
             </li>
+            <li>
+              <a
+                href="#curricula"
+                className={`inline-block w-full text-[#7e9199] hover:text-white max-md:hover:border-none max-md:active:bg-purple-500 max-md:active:text-white max-md:px-2 hover:border-b pb-1 text-lg`}
+                onClick={() => handleLinkClick()}>
+                E&nbsp;Curricula
+              </a>
+            </li>
+            <li>
+              <a
+                href="#hackerrank"
+                className={`inline-block w-full text-[#7e9199] hover:text-white max-md:hover:border-none max-md:active:bg-purple-500 max-md:active:text-white max-md:px-2 hover:border-b pb-1 text-lg`}
+                onClick={() => handleLinkClick()}>
+                HackerRank
+              </a>
+            </li>
 
             <li>
               <a
@@ -90,7 +103,7 @@ function Navbar({sendDataToParent}) {
           </ul>
 
           <ul
-            className={`hidden justify-around items-center mt-28 max-md:flex`}>
+            className={`hidden justify-start gap-10 items-center mt-8 max-md:flex`}>
             <li>
               <a
                 href="https://github.com/vaishnavi071106"
