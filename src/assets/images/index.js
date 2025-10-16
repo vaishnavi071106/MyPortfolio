@@ -23,6 +23,7 @@ import Design_Certificate from "./c1.png";
 import JS_Certificate from "./c2.png";
 import M1 from "./m1.png";
 import M2 from "./m2.png";
+import HackerRankImage from "./hackerrank.jpeg";
 
 //latest
 import C from "./c.png";
@@ -58,4 +59,5 @@ export {
   M2,
   Project1,
   Project2,
+  HackerRankImage,
 };
