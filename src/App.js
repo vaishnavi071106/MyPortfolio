@@ -1,7 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import "./App.css";
-import { Navbar, Loader, Footer,About, Skills, Projects, Contact, Certificates  } from "./components/index.js";
-import { GoArrowUp } from "react-icons/go";
+import {
+  Navbar,
+  Loader,
+  Footer,
+  About,
+  Skills,
+  Projects,
+  Contact,
+  Certificates,
+  HackerRank,
+} from "./components/index.js";
+import {GoArrowUp} from "react-icons/go";
+import Curricula from "./components/Curricula.jsx";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -46,14 +57,15 @@ function App() {
               className={`rounded-lg py-4 px-2 text-2xl text-purple-500 hover:text-white bg-white hover:bg-purple-500 fixed right-10 bottom-10 shadow-lg z-30 shadow-purple-900 ${
                 visible ? "block" : "hidden"
               }`}
-              onClick={scrollToTop}
-            >
+              onClick={scrollToTop}>
               <GoArrowUp />
             </button>
             <About />
             <Skills />
             <Projects />
             <Certificates />
+            <HackerRank />
+            <Curricula />
             <Contact />
             <Footer />
           </>
