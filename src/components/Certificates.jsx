@@ -11,13 +11,7 @@ const Certificates = () => {
       image: M1,
       imageAlt: "certification",
     },
-    {
-      title: "Certification of Advanced Programming practice",
-      description:
-        "I am currently enrolled in the course Advanced Programming Practice (21CSC203P), where I am actively progressing through its structured content. The course is divided into four main units, each containing multiple sub-sections. Based on my current progress visualization, I have completed several segments fully, while some areas still require additional focus. This ongoing engagement is helping me strengthen my skills in advanced programming practices.",
-      image: M2,
-      imageAlt: "certification",
-    },
+
     {
       title: "Certification of workshop",
       description:
@@ -25,14 +19,8 @@ const Certificates = () => {
       image: Design_Certificate,
       imageAlt: "certification",
     },
-    {
-      title: "Certification of Hackathon",
-      description:
-        "Participated in Designathon 2025: Crack the Complexity, a National Level 24-hour Hackathon held on 5th and 6th August 2025. The event was organized by the Department of Computational Intelligence, School of Computing, SRM Institute of Science and Technology, Kattankulathur. It provided a great opportunity to apply my problem-solving skills and engage in innovative thinking under real-time pressure.",
-      image: JS_Certificate,
-      imageAlt: "Lagacy JavaScript Certificate",
-    },
   ];
+
 
   return (
     <div id="certificates">
