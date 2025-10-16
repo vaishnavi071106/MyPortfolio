@@ -6,6 +6,8 @@ import Skills from "./Skills.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Certificates from "./Certificates.jsx";
+import HackerRank from "./HackerRank.jsx";
+import Curricula from "./Curricula.jsx";
 
 export {
   Navbar,
@@ -16,4 +18,6 @@ export {
   Projects,
   Contact,
   Certificates,
+  HackerRank,
+  Curricula,
 };
