@@ -4,7 +4,7 @@ import {Design_Certificate, HackerRankImage, M1, M2} from "../assets/images";
 const HackerRank = () => {
   const certificates = [
     {
-      title: "Certification of Hackathon",
+      title: "",
       description:"",
       image: HackerRankImage,
       imageAlt: "Certification of Hackathon",
