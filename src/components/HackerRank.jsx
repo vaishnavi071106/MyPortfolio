@@ -15,7 +15,7 @@ const HackerRank = () => {
   return (
     <div id="hackerrank">
       <h1 className="text-6xl max-md:text-4xl font-bold mb-10 mt-10">
-        HackerRank Certificate
+        HackerRank
       </h1>
 
       <div className="flex flex-wrap justify-between gap-y-5">
