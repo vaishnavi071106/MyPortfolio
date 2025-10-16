@@ -13,7 +13,7 @@ const Curricula = () => {
   ];
 
   return (
-    <div id="hackerrank">
+    <div id="curricula">
       <h1 className="text-6xl max-md:text-4xl font-bold mb-10 mt-10">
         E-Curricula
       </h1>
